@@ -1,7 +1,7 @@
 # 🎬 Netflix Content Intelligence Dashboard
 
 A professional **Power BI dashboard** built to analyze Netflix's content catalog and uncover insights related to content type, genres, countries, release years, and content distribution.
-
+![Netflix Content Intelligence Dashboard](netflix-dashboard-combined.png)
 ## 📊 Project Overview
 
 This project transforms Netflix content data into an interactive **Power BI Content Intelligence Dashboard** designed to support data-driven analysis and business decision-making.
