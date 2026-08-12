@@ -1,0 +1,3022 @@
+cultureInfo en-IN
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "business_metrics": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Business Metrics"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "business metrics": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "metrics": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "biz metrics": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "industry metrics": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "commerce metrics": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "corporation metrics": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "employer metrics": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "enterprise metrics": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "establishment metrics": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "commercial metrics": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "corporate metrics": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "firm metrics": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "business_metrics.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Business Metrics",
+			          "ConceptualProperty": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ]
+			    },
+			    "business_metrics.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Business Metrics",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "year": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "business_metrics.region": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Business Metrics",
+			          "ConceptualProperty": "Region"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "region": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "continent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "business_metrics.paid_subscriber": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Business Metrics",
+			          "ConceptualProperty": "Paid Subscribers (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "paid subscriber": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "paid subscriber (M)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Paid Subscribers (M)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "subscriber": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "business_metrics.streaming_revenue_b": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Business Metrics",
+			          "ConceptualProperty": "Streaming Revenue (B$)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "streaming revenue (b$)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "streaming revenue": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "business_metrics.avg_revenue_per_member": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Business Metrics",
+			          "ConceptualProperty": "Avg Revenue per Member ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg revenue per member": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "avg revenue per member ($)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "avg income per member": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "avg profit per member": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "avg turnover per member": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "avg yield per member": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "average revenue per member": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "business_metrics.total_movies": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Business Metrics",
+			          "ConceptualProperty": "total movies"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total movies": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "movies": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate movie": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall movie": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total cinema": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cinema": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "total picture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total flick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "picture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "flick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "total show": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "business_metrics.total_tv_shows": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Business Metrics",
+			          "ConceptualProperty": "Total Tv Shows"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total tv shows": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "shows": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "tv shows": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate tv show": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall tv show": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "total tv demonstration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "total tv expression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "total tv illustration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "total tv confirmation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "total tv appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "total tv indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "total tv spectacle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "tv demonstration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "business_metrics.average_IMDb": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Business Metrics",
+			          "ConceptualProperty": "Average IMDb"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average IMDb": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "business_metrics.total_paid_subscribers": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Business Metrics",
+			          "ConceptualProperty": "Total Paid Subscribers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total paid subscribers": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate paid subscriber": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall paid subscriber": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "business_metrics.total_stearming_revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Business Metrics",
+			          "ConceptualProperty": "Total Stearming Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total stearming revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total stearming income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "total stearming profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total stearming turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total stearming yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "aggregate stearming revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall stearming revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "Revenue": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "content_catalog": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Content Catalog"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "content catalog": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "catalog": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "content collection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "content litany": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "content series": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "content succession": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "collection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "litany": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "series": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "succession": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "content set": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "content list": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "content_catalog.title": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Content Catalog",
+			          "ConceptualProperty": "Title"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "title": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "designation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "award": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "heading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "content_catalog.type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Content Catalog",
+			          "ConceptualProperty": "Type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "content_catalog.genre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Content Catalog",
+			          "ConceptualProperty": "Genre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "genre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "genus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "field": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "content_catalog.release_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Content Catalog",
+			          "ConceptualProperty": "Release Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "release year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "release yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "content_catalog.rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Content Catalog",
+			          "ConceptualProperty": "Rating"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sailor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "seaman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "hand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "content_catalog.IMDb_score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Content Catalog",
+			          "ConceptualProperty": "IMDb Score"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "IMDb score": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "imdb notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "imdb slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "imdb groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "imdb nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "imdb cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "imdb mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "imdb total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "imdb tally": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "imdb grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "imdb result": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "content_catalog.duration_min_seasons": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Content Catalog",
+			          "ConceptualProperty": "Duration (min/seasons)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "duration (min/seasons)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "duration (min/season)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "duration": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "duration (min": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "duration ( min seasons )": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "duration ( min season )": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "seasons)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "season)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "duration ( minimum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "duration ( minimum season )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "content_catalog.country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Content Catalog",
+			          "ConceptualProperty": "Country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "content_catalog.date_added": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Content Catalog",
+			          "ConceptualProperty": "Date Added"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "moment added": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "period added": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "content_catalog.date_added.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Content Catalog",
+			          "VariationSource": "Date Added",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date hierarchy added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "content_catalog.date_added.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Content Catalog",
+			          "VariationSource": "Date Added",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "yr added": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment added year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period added year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "content_catalog.date_added.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Content Catalog",
+			          "VariationSource": "Date Added",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "qtr added": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "moment added quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period added quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "content_catalog.date_added.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Content Catalog",
+			          "VariationSource": "Date Added",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "mth added": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment added month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period added month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "content_catalog.date_added.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Content Catalog",
+			          "VariationSource": "Date Added",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment added day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period added day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimYear"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DimYear": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dim yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "dim_year.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimYear",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    }
+			  },
+			  "Relationships": {
+			    "content_catalog_date_added_date_hierarchy_has_content_catalog_date_added_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog.date_added.date_hierarchy": {
+			          "Target": {
+			            "Entity": "content_catalog.date_added.date_hierarchy"
+			          }
+			        },
+			        "content_catalog.date_added.month": {
+			          "Target": {
+			            "Entity": "content_catalog.date_added.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog.date_added.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "content_catalog.date_added.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_added_have_month_added"
+			        }
+			      ]
+			    },
+			    "content_catalog_date_added_date_hierarchy_has_content_catalog_date_added_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog.date_added.date_hierarchy": {
+			          "Target": {
+			            "Entity": "content_catalog.date_added.date_hierarchy"
+			          }
+			        },
+			        "content_catalog.date_added.quarter": {
+			          "Target": {
+			            "Entity": "content_catalog.date_added.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog.date_added.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "content_catalog.date_added.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_added_have_quarter_added"
+			        }
+			      ]
+			    },
+			    "content_catalog_date_added_date_hierarchy_has_content_catalog_date_added_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog.date_added.date_hierarchy": {
+			          "Target": {
+			            "Entity": "content_catalog.date_added.date_hierarchy"
+			          }
+			        },
+			        "content_catalog.date_added.year": {
+			          "Target": {
+			            "Entity": "content_catalog.date_added.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog.date_added.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "content_catalog.date_added.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_added_have_year_added"
+			        }
+			      ]
+			    },
+			    "content_catalog_date_added_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog.date_added": {
+			          "Target": {
+			            "Entity": "content_catalog.date_added"
+			          }
+			        },
+			        "content_catalog.date_added.date_hierarchy": {
+			          "Target": {
+			            "Entity": "content_catalog.date_added.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog.date_added"
+			            },
+			            "Object": {
+			              "Role": "content_catalog.date_added.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_added_have_date_hierarchy_added"
+			        }
+			      ]
+			    },
+			    "business_metrics_has_dim_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Business Metrics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "business_metrics": {
+			          "Target": {
+			            "Entity": "business_metrics"
+			          }
+			        },
+			        "dim_year": {
+			          "Target": {
+			            "Entity": "dim_year"
+			          },
+			          "Nouns": [
+			            {
+			              "year": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "business_metrics"
+			            },
+			            "Object": {
+			              "Role": "dim_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "business_metrics_have_dim_years"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_year"
+			            },
+			            "Object": {
+			              "Role": "business_metrics"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_years_have_business_metrics"
+			        }
+			      ]
+			    },
+			    "dim_year_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "DimYear"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_year": {
+			          "Target": {
+			            "Entity": "dim_year"
+			          }
+			        },
+			        "dim_year.year": {
+			          "Target": {
+			            "Entity": "dim_year.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_year"
+			            },
+			            "Object": {
+			              "Role": "dim_year.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_years_have_years"
+			        }
+			      ]
+			    },
+			    "content_catalog_has_date_added": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog": {
+			          "Target": {
+			            "Entity": "content_catalog"
+			          }
+			        },
+			        "content_catalog.date_added": {
+			          "Target": {
+			            "Entity": "content_catalog.date_added"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog"
+			            },
+			            "Object": {
+			              "Role": "content_catalog.date_added"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "content_catalogs_have_date_added"
+			        }
+			      ]
+			    },
+			    "content_catalog_has_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog": {
+			          "Target": {
+			            "Entity": "content_catalog"
+			          }
+			        },
+			        "content_catalog.country": {
+			          "Target": {
+			            "Entity": "content_catalog.country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog"
+			            },
+			            "Object": {
+			              "Role": "content_catalog.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "content_catalogs_have_countries"
+			        }
+			      ]
+			    },
+			    "content_catalog_has_duration_min_seasons": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog": {
+			          "Target": {
+			            "Entity": "content_catalog"
+			          }
+			        },
+			        "content_catalog.duration_min_seasons": {
+			          "Target": {
+			            "Entity": "content_catalog.duration_min_seasons"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog"
+			            },
+			            "Object": {
+			              "Role": "content_catalog.duration_min_seasons"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "content_catalogs_have_duration_min_seasons"
+			        }
+			      ]
+			    },
+			    "content_catalog_has_IMDb_score": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog": {
+			          "Target": {
+			            "Entity": "content_catalog"
+			          }
+			        },
+			        "content_catalog.IMDb_score": {
+			          "Target": {
+			            "Entity": "content_catalog.IMDb_score"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog"
+			            },
+			            "Object": {
+			              "Role": "content_catalog.IMDb_score"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "content_catalogs_have_IMDb_scores"
+			        }
+			      ]
+			    },
+			    "content_catalog_has_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog": {
+			          "Target": {
+			            "Entity": "content_catalog"
+			          }
+			        },
+			        "content_catalog.rating": {
+			          "Target": {
+			            "Entity": "content_catalog.rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog"
+			            },
+			            "Object": {
+			              "Role": "content_catalog.rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "content_catalogs_have_rating"
+			        }
+			      ]
+			    },
+			    "content_catalog_has_release_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog": {
+			          "Target": {
+			            "Entity": "content_catalog"
+			          }
+			        },
+			        "content_catalog.release_year": {
+			          "Target": {
+			            "Entity": "content_catalog.release_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog"
+			            },
+			            "Object": {
+			              "Role": "content_catalog.release_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "content_catalogs_have_release_years"
+			        }
+			      ]
+			    },
+			    "content_catalog_has_genre": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog": {
+			          "Target": {
+			            "Entity": "content_catalog"
+			          }
+			        },
+			        "content_catalog.genre": {
+			          "Target": {
+			            "Entity": "content_catalog.genre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog"
+			            },
+			            "Object": {
+			              "Role": "content_catalog.genre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "content_catalogs_have_genres"
+			        }
+			      ]
+			    },
+			    "content_catalog_has_type": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog": {
+			          "Target": {
+			            "Entity": "content_catalog"
+			          }
+			        },
+			        "content_catalog.type": {
+			          "Target": {
+			            "Entity": "content_catalog.type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog"
+			            },
+			            "Object": {
+			              "Role": "content_catalog.type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "content_catalogs_have_types"
+			        }
+			      ]
+			    },
+			    "content_catalog_has_title": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog": {
+			          "Target": {
+			            "Entity": "content_catalog"
+			          }
+			        },
+			        "content_catalog.title": {
+			          "Target": {
+			            "Entity": "content_catalog.title"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog"
+			            },
+			            "Object": {
+			              "Role": "content_catalog.title"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "content_catalogs_have_titles"
+			        }
+			      ]
+			    },
+			    "business_metrics_has_total_stearming_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "Business Metrics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "business_metrics": {
+			          "Target": {
+			            "Entity": "business_metrics"
+			          }
+			        },
+			        "business_metrics.total_stearming_revenue": {
+			          "Target": {
+			            "Entity": "business_metrics.total_stearming_revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "business_metrics"
+			            },
+			            "Object": {
+			              "Role": "business_metrics.total_stearming_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "business_metrics_have_total_stearming_revenue"
+			        }
+			      ]
+			    },
+			    "business_metrics_has_total_paid_subscribers": {
+			      "Binding": {
+			        "ConceptualEntity": "Business Metrics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "business_metrics": {
+			          "Target": {
+			            "Entity": "business_metrics"
+			          }
+			        },
+			        "business_metrics.total_paid_subscribers": {
+			          "Target": {
+			            "Entity": "business_metrics.total_paid_subscribers"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "business_metrics"
+			            },
+			            "Object": {
+			              "Role": "business_metrics.total_paid_subscribers"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "business_metrics_have_total_paid_subscribers"
+			        }
+			      ]
+			    },
+			    "content_catalog_has_business_metrics_average_IMDb": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog": {
+			          "Target": {
+			            "Entity": "content_catalog"
+			          }
+			        },
+			        "business_metrics.average_IMDb": {
+			          "Target": {
+			            "Entity": "business_metrics.average_IMDb"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog"
+			            },
+			            "Object": {
+			              "Role": "business_metrics.average_IMDb"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "content_catalogs_have_average_IMDb"
+			        }
+			      ]
+			    },
+			    "content_catalog_has_business_metrics_total_tv_shows": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog": {
+			          "Target": {
+			            "Entity": "content_catalog"
+			          }
+			        },
+			        "business_metrics.total_tv_shows": {
+			          "Target": {
+			            "Entity": "business_metrics.total_tv_shows"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog"
+			            },
+			            "Object": {
+			              "Role": "business_metrics.total_tv_shows"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "content_catalogs_have_total_tv_shows"
+			        }
+			      ]
+			    },
+			    "content_catalog_has_business_metrics_total_movies": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog": {
+			          "Target": {
+			            "Entity": "content_catalog"
+			          }
+			        },
+			        "business_metrics.total_movies": {
+			          "Target": {
+			            "Entity": "business_metrics.total_movies"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog"
+			            },
+			            "Object": {
+			              "Role": "business_metrics.total_movies"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "content_catalogs_have_total_movies"
+			        }
+			      ]
+			    },
+			    "business_metrics_has_avg_revenue_per_member": {
+			      "Binding": {
+			        "ConceptualEntity": "Business Metrics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "business_metrics": {
+			          "Target": {
+			            "Entity": "business_metrics"
+			          }
+			        },
+			        "business_metrics.avg_revenue_per_member": {
+			          "Target": {
+			            "Entity": "business_metrics.avg_revenue_per_member"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "business_metrics"
+			            },
+			            "Object": {
+			              "Role": "business_metrics.avg_revenue_per_member"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "business_metrics_have_avg_revenue_per_member"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "business_metrics"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "business_metrics.avg_revenue_per_member"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "avg_revenue_per_member_indicates_how_expensive_business_metrics_are"
+			        }
+			      ]
+			    },
+			    "business_metrics_has_streaming_revenue_b": {
+			      "Binding": {
+			        "ConceptualEntity": "Business Metrics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "business_metrics": {
+			          "Target": {
+			            "Entity": "business_metrics"
+			          }
+			        },
+			        "business_metrics.streaming_revenue_b": {
+			          "Target": {
+			            "Entity": "business_metrics.streaming_revenue_b"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "business_metrics"
+			            },
+			            "Object": {
+			              "Role": "business_metrics.streaming_revenue_b"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "business_metrics_have_streaming_revenue_b"
+			        }
+			      ]
+			    },
+			    "business_metrics_has_paid_subscriber": {
+			      "Binding": {
+			        "ConceptualEntity": "Business Metrics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "business_metrics": {
+			          "Target": {
+			            "Entity": "business_metrics"
+			          }
+			        },
+			        "business_metrics.paid_subscriber": {
+			          "Target": {
+			            "Entity": "business_metrics.paid_subscriber"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "business_metrics"
+			            },
+			            "Object": {
+			              "Role": "business_metrics.paid_subscriber"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "business_metrics_have_paid_subscribers"
+			        }
+			      ]
+			    },
+			    "business_metrics_has_region": {
+			      "Binding": {
+			        "ConceptualEntity": "Business Metrics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "business_metrics": {
+			          "Target": {
+			            "Entity": "business_metrics"
+			          }
+			        },
+			        "business_metrics.region": {
+			          "Target": {
+			            "Entity": "business_metrics.region"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "business_metrics"
+			            },
+			            "Object": {
+			              "Role": "business_metrics.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "business_metrics_have_regions"
+			        }
+			      ]
+			    },
+			    "business_metrics_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Business Metrics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "business_metrics": {
+			          "Target": {
+			            "Entity": "business_metrics"
+			          }
+			        },
+			        "business_metrics.quarter": {
+			          "Target": {
+			            "Entity": "business_metrics.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "business_metrics"
+			            },
+			            "Object": {
+			              "Role": "business_metrics.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "business_metrics_have_quarters"
+			        }
+			      ]
+			    },
+			    "content_catalog_in_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog": {
+			          "Target": {
+			            "Entity": "content_catalog"
+			          }
+			        },
+			        "content_catalog.country": {
+			          "Target": {
+			            "Entity": "content_catalog.country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "content_catalog.country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "content_catalog"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "content_catalog.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "content_catalogs_are_in_countries"
+			        }
+			      ]
+			    },
+			    "business_metrics_in_region": {
+			      "Binding": {
+			        "ConceptualEntity": "Business Metrics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "business_metrics": {
+			          "Target": {
+			            "Entity": "business_metrics"
+			          }
+			        },
+			        "business_metrics.region": {
+			          "Target": {
+			            "Entity": "business_metrics.region"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "business_metrics.region"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "business_metrics"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "business_metrics.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "business_metrics_are_in_regions"
+			        }
+			      ]
+			    },
+			    "content_catalog_is_added_on_date_added": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog": {
+			          "Target": {
+			            "Entity": "content_catalog"
+			          }
+			        },
+			        "content_catalog.date_added": {
+			          "Target": {
+			            "Entity": "content_catalog.date_added"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "content_catalog.date_added"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "add": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "content_catalog"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "content_catalogs_are_added_on_date_added"
+			        }
+			      ]
+			    },
+			    "content_catalog_is_released_in_release_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog": {
+			          "Target": {
+			            "Entity": "content_catalog"
+			          }
+			        },
+			        "content_catalog.release_year": {
+			          "Target": {
+			            "Entity": "content_catalog.release_year"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "content_catalog.release_year"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "release": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "content_catalog"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "content_catalogs_are_released_on_release_years"
+			        }
+			      ]
+			    },
+			    "content_catalog_date_added_date_hierarchy_has_content_catalog_date_added_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Content Catalog"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "content_catalog.date_added.date_hierarchy": {
+			          "Target": {
+			            "Entity": "content_catalog.date_added.date_hierarchy"
+			          }
+			        },
+			        "content_catalog.date_added.day": {
+			          "Target": {
+			            "Entity": "content_catalog.date_added.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "content_catalog.date_added.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "content_catalog.date_added.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_added_have_day_added"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

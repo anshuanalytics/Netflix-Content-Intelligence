@@ -1,0 +1,92 @@
+table 'Business Metrics'
+	lineageTag: 374b19a7-1408-43c5-8d55-3d37b64d66d3
+
+	measure 'total movies' = CALCULATE(COUNTROWS('Content Catalog'),'Content Catalog'[Type] = "MOVIE")
+		formatString: 0
+		lineageTag: c6cb9f84-8e5d-44d6-a9b3-1c26316f6264
+
+	measure 'Total Tv Shows' = CALCULATE(COUNTROWS('Content Catalog'),'Content Catalog'[Type] = "Tv Show")
+		formatString: 0
+		lineageTag: 59519bb8-f3dc-4d4d-9ac1-e60f0f5f271b
+
+	measure 'Average IMDb' = AVERAGE('Content Catalog'[IMDb Score])
+		lineageTag: ccd9301a-b5b9-4bcf-951c-0c73ffe2e720
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Paid Subscribers' = SUM('Business Metrics'[Paid Subscribers (M)])
+		lineageTag: 40667750-debb-49c4-8fa9-42f5e46a89f7
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Stearming Revenue' = SUM('Business Metrics'[Streaming Revenue (B$)])
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: e7734da1-800c-4589-971b-cfde52956654
+
+	column Quarter
+		dataType: string
+		lineageTag: f28645dd-fd02-4715-88b6-1c8dfa340f2e
+		summarizeBy: none
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 8c1a0934-97fc-44f4-ae19-71d06fb32214
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = User
+
+	column Region
+		dataType: string
+		lineageTag: 895ba928-d447-4240-bd12-31f3130fcc13
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Paid Subscribers (M)'
+		dataType: double
+		lineageTag: ea38de84-1ddd-4c9a-a539-bc51b77a434b
+		summarizeBy: sum
+		sourceColumn: Paid Subscribers (M)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Streaming Revenue (B$)'
+		dataType: double
+		lineageTag: 4e59a99e-5501-495a-add4-31035b2aa987
+		summarizeBy: sum
+		sourceColumn: Streaming Revenue (B$)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Avg Revenue per Member ($)'
+		dataType: double
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: c4c9eb2a-e6c7-4311-9891-d340da0e5bf8
+		summarizeBy: sum
+		sourceColumn: Avg Revenue per Member ($)
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Business Metrics' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\anshu\Downloads\netflix_data_for_powerbi.xlsx"), null, true),
+				    #"Business Metrics_Sheet" = Source{[Item="Business Metrics",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Business Metrics_Sheet", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Quarter", type text}, {"Year", Int64.Type}, {"Region", type text}, {"Paid Subscribers (M)", type number}, {"Streaming Revenue (B$)", type number}, {"Avg Revenue per Member ($)", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

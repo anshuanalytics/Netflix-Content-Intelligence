@@ -1,0 +1,101 @@
+table 'Content Catalog'
+	lineageTag: a78d39de-6db3-4b47-9dda-3f7948f5b20d
+
+	column Title
+		dataType: string
+		lineageTag: 738aa798-2ffc-409d-ae09-13a014de3c6d
+		summarizeBy: none
+		sourceColumn: Title
+
+		annotation SummarizationSetBy = Automatic
+
+	column Type
+		dataType: string
+		lineageTag: f976df3c-57ba-4dc9-a5fb-c192e7f0e4f7
+		summarizeBy: none
+		sourceColumn: Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column Genre
+		dataType: string
+		lineageTag: 81250e63-bfab-45b2-a061-f62549730533
+		summarizeBy: none
+		sourceColumn: Genre
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Release Year'
+		dataType: int64
+		formatString: 0
+		lineageTag: b9762eb0-d3a6-4ef9-bbbe-57cee78c7624
+		summarizeBy: none
+		sourceColumn: Release Year
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = User
+
+	column Rating
+		dataType: string
+		lineageTag: a2e1d0b3-14e4-457a-869f-1c677c0645c3
+		summarizeBy: none
+		sourceColumn: Rating
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'IMDb Score'
+		dataType: double
+		lineageTag: c50de006-4ad2-4379-8adf-59217f64a671
+		summarizeBy: sum
+		sourceColumn: IMDb Score
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Duration (min/seasons)'
+		dataType: string
+		lineageTag: 2d7c271c-76eb-458e-b2df-8f922427fdd7
+		summarizeBy: none
+		sourceColumn: Duration (min/seasons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column Country
+		dataType: string
+		lineageTag: 25198ee7-09f8-44c0-9af6-a48e82fde06b
+		summarizeBy: none
+		sourceColumn: Country
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Date Added'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: addf496f-1362-47ab-9085-91152c277654
+		summarizeBy: none
+		sourceColumn: Date Added
+
+		variation Variation
+			isDefault
+			relationship: 7fc51cae-3321-448a-a580-1dab5588d900
+			defaultHierarchy: LocalDateTable_f6f76392-b440-4530-8b9f-2c8c39d727a8.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition 'Content Catalog' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\anshu\Downloads\netflix_data_for_powerbi.xlsx"), null, true),
+				    #"Content Catalog_Sheet" = Source{[Item="Content Catalog",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Content Catalog_Sheet", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Title", type text}, {"Type", type text}, {"Genre", type text}, {"Release Year", Int64.Type}, {"Rating", type text}, {"IMDb Score", type number}, {"Duration (min/seasons)", type text}, {"Country", type text}, {"Date Added", type date}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

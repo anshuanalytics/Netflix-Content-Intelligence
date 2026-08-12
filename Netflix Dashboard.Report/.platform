@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Netflix Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5b05f456-a214-41f3-acf4-ad9c08583cb4"
+  }
+}

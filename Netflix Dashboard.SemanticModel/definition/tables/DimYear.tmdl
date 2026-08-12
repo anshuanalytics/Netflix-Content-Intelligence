@@ -1,0 +1,18 @@
+table DimYear
+	lineageTag: 0466fcda-87a8-4e97-8e39-530c7e51a730
+
+	column Year
+		formatString: 0
+		lineageTag: a6c6b5ac-1bfb-4570-8283-711adec442d8
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Year]
+
+		annotation SummarizationSetBy = User
+
+	partition DimYear = calculated
+		mode: import
+		source = DISTINCT(UNION(SELECTCOLUMNS('Business Metrics',"Year",'Business Metrics'[Year]),SELECTCOLUMNS('Content Catalog',"Year",'Content Catalog'[Release Year])))
+
+	annotation PBI_Id = 61a614473c1c488dbc730cfa5cc1234e
+

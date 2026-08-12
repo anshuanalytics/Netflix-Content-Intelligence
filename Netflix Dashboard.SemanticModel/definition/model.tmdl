@@ -1,0 +1,23 @@
+model Model
+	culture: en-IN
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Business Metrics","Content Catalog"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'Business Metrics'
+ref table 'Content Catalog'
+ref table DateTableTemplate_1c86c2e1-283e-461d-a665-073b9ecacb23
+ref table LocalDateTable_f6f76392-b440-4530-8b9f-2c8c39d727a8
+ref table DimYear
+
+ref cultureInfo en-IN
+

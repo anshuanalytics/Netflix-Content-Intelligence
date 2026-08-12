@@ -1,0 +1,14 @@
+relationship 7fc51cae-3321-448a-a580-1dab5588d900
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Content Catalog'.'Date Added'
+	toColumn: LocalDateTable_f6f76392-b440-4530-8b9f-2c8c39d727a8.Date
+
+relationship 0bff86ae-a8bf-3caf-8e36-7a4a0cefe0f3
+	fromColumn: 'Business Metrics'.Year
+	toColumn: DimYear.Year
+
+relationship 4b6896a8-9144-4f18-89dc-49c7a87a2d14
+	isActive: false
+	fromColumn: 'Content Catalog'.'Release Year'
+	toColumn: DimYear.Year
+
