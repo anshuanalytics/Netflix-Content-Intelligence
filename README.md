@@ -68,7 +68,25 @@ It can help stakeholders understand:
 * Genre concentration
 * Content growth patterns
 * Historical release trends
+## 🔑 Key Insights
 
+- The dashboard provides a consolidated view of Netflix's content catalog across multiple dimensions.
+- TV Shows and Movies can be compared to understand the overall content mix.
+- Country-level analysis highlights the geographic distribution of Netflix content.
+- Genre analysis identifies the most represented content categories in the dataset.
+- Release-year analysis helps identify content trends and changes over time.
+- IMDb score analysis provides a view of content quality across different genres and countries.
+- Interactive slicers allow users to explore the dashboard dynamically by year, type, genre, and country.
+
+## 💼 Business Recommendations
+
+Based on the dashboard analysis, the following areas can support data-driven decision-making:
+
+- Monitor content trends by release year to identify changing audience preferences.
+- Analyze high-performing genres and countries when evaluating future content opportunities.
+- Compare Movies and TV Shows to understand the balance of the content portfolio.
+- Use IMDb score patterns as one supporting indicator when evaluating content quality.
+- Combine geographic and genre insights to identify potential content expansion opportunities.
 ## 📁 Project Structure
 
 ```text
